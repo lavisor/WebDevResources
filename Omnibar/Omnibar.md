@@ -12,8 +12,7 @@ eg. google.com[blank_space]searchterm.
 
 Follow below steps to implement omnibar search in your website. 
 - Save the following code as search.xml
-
-
+    ```
     <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
       <script></script>
       <ShortName>Site Name</ShortName>
@@ -24,9 +23,9 @@ Follow below steps to implement omnibar search in your website.
       <Url type="text/html" method="GET" template="http://yoursite.com/?s={searchTerms}" ></Url>
       <SearchForm>http://yoursite.com/</SearchForm>
     </OpenSearchDescription>
+    ```
 
  - Upload search.xml to the root of your site
  - Add the following meta tag to your site's <head> tag
   `<link rel="search" href="http://www.yoursite.com/search.xml" type="application/opensearchdescription+xml" title="You site name"/>`
- 
 - Make sure to replace the domain urls with your domain.
