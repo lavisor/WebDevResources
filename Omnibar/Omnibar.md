@@ -3,6 +3,7 @@
 #### What is omnibar search ? 
 In Google Chrome, the Omnibox feature combines a browser’s address bar and search box into one single area at the top of the browser window. You can also use it to bookmark websites and see security information about your current webpage.
 
+#### How to use omnibar search ?
 Just type your query into the address bar and press Enter. But what you may not have known is that you can also search for a word or phrase on a specific website. To search on a specific website, just enter website homepage url and followed by a space with search string in omnibar and it will look the like below image.
 eg. google.com[blank_space]searchterm. 
 
